@@ -1,0 +1,77 @@
+/*---Setting the body properties----*/
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+.hidden-heading {
+    display: none;
+}
+
+
+/*--------------Styling the Navbar Outlook----*/
+.navalert-container{
+    position: fixed;
+    display: inline-flex;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navalert-container h1 {
+    font-family: "Josefin Sans", sans-serif;
+    width: 30%;
+    color: #fff;
+    transition: ease .40s;
+}
+
+/* .navalert-container h1:hover {
+    background: #faea05;
+    color: #013f1a;
+    box-shadow: 40px 40px  rgb(85 85 85 / 20%);
+    border-radius: 4px;
+} */
+
+li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    justify-content: flex-start;
+}
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: #013f1a;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .active .nav-link {
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    font-weight: bold;
+    transition: ease .40s;
+}
+
+.navbar-light .navbar-nav .active .nav-link:hover{
+    background: #faea05;
+    color: #013f1a;
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 4px;
+    
+}
