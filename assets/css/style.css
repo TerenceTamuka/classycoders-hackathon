@@ -140,6 +140,7 @@ li a{
 
 .main{
     background-color: transparent;
+    text-align: center;
 }
 
 .main-header{
@@ -147,9 +148,9 @@ li a{
     font-weight: 600;
     margin-bottom: 30px;
     font-family: "Kanit", sans-serif;
-    /* background: linear-gradient(20deg, #fff, hsl(56, 71%, 73%));
-    -webkit-background-clip: text;
-    text-shadow: 2px 2px 4px rgba(10, 16, 13, 0.5); */
+    /* background: linear-gradient(20deg, #fff, hsl(56, 71%, 73%)); */
+    /*-webkit-background-clip: text;*/
+    text-shadow: 2px 2px 4px rgba(10, 180, 0, 0.8);; 
 }
 
 .block-divider--green {
@@ -157,10 +158,13 @@ li a{
     height: 0.5rem;
     border: 0;
     border-radius: 25px;
-    background-color: #faea05;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8); /* Add shadow to divider */
+    margin: 0 auto; /* Center the divider */
 }
 
 .main .lead {
     margin: 25px 0;
     color: #faea05;
+    text-shadow: 5px 5px 5px rgba(10, 180, 0, 0.8); /* Add shadow to lead text */
 }
