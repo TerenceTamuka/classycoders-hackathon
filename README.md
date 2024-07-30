@@ -8,7 +8,7 @@
 ## High-Level Features
 
 | **Home page** | **Explore** | **Contact** |  **Overview of Website**  | 
-|---|---|---|
+|---|---|---|---|
 | Home Gallery  | Japan Adventures  | Form  |  Navbar  |
 | connects user to more insights | Explorations in Japan | Mail list checkbox  | Social Media links |
 | Explorations  |  Top quality images of Japanese Culture, Tech and Food Diversity | Meaningful alt text |
