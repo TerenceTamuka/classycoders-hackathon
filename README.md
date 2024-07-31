@@ -1,9 +1,25 @@
 # Japan Adventures
 
+Japan Adventures is a website which solely focuses on three main dynamics of Japan that inclues, its Cultural Richness, Tech & Innovation and Food Diversity.
+
+The objective of this website is to enhance the interest of a user to see particular aspects of Japan with the inclusion of high quality images, intuitive layout and insightful text.
+
+The site is aimed for those who are willing to travel and explore Japan and understand the importance of its core values as a country.
+
+![Home Page]()
 
 ## UX
 
+The site has core features that allow users to find out information about Japan in more depth and a carefully chosen color scheme to help UX.
+
 ## User Stories
+
+- As a **user** I would like **to see high quality pictures of Japan** so I can **experience how specific some areas look**
+- As a **user** I would like **to see the dynamism of visiting Japan** so I can **understand its Cultural richness, Tech and Food diversity**
+- As a **user** I would like **to see a nice menu nav header** so I can **navigate to whichever page I want without any issues**
+- As a **site owner** I want  **users to easily navigate the site** so that **they can find out more info about why they should visit Japan**
+
+
 
 ## High-Level Features
 
@@ -40,6 +56,7 @@
 - __The landing page image__
 
   - The landing page image exhibits the overal summary of different reasons a user might want to visit.
+
   - It offers the brand name and ambience with a brief explantion of value.
 
 ![Landing Page]()
@@ -113,14 +130,16 @@ The chose colors are:
 
 ### fonts
 
+Josefin Sans, sans-serif was used for both Headings and text.
+
 
 ### Media
 
 Images are utilised to promote UX throughout the website.
 
-Home page - 
+Home page - The hero image showcases the overal look of being in Japan, Tokyo while promoting visual interest for users.
 
-Explore Page - 
+Explore Page - Images of each sub category of Japan's Cultural richness, Tech and Food diversity are included together with informative text to allow the user to understand the overview of these Japanaese components, together with a nice UX design.
 
 Contact Page - 
 
