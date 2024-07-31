@@ -64,6 +64,7 @@ li a{
 .navbar-brand {
     font-weight: bold;
 }
+
 .navbar-light .navbar-nav .active .nav-link {
     font-family: "Josefin Sans", sans-serif;
     color: #fff;
