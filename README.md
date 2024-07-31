@@ -59,7 +59,7 @@ The site has core features that allow users to find out information about Japan 
 
   - It offers the brand name and ambience with a brief explantion of value.
 
-![Landing Page]()
+![Landing Page](https://terencetamuka.github.io/classycoders-hackathon/)
 
 - __Japan Adventure Section__
 
@@ -67,13 +67,13 @@ The site has core features that allow users to find out information about Japan 
   - On desktop, hovering over the images in this section creates an interactiver overlay with a link to appear, the link in the overlay directs to the relevant section of the explore page.
 
 
-![Contact]()
+![Contact](https://terencetamuka.github.io/classycoders-hackathon/contact.html)
 
 - __The Contact Section__
 
-  - This section main requires users to be in contact as feedback.
-  - The contact section has a high quality image background with a shade to allow text prompting user to input their name and email together with a radio button to select a reason they would want to visit Japan.
-   - The subscirbe to our mail list button is also included in this section in case user wants to be part of the subscribed list and a require feature is enable for all input fields.
+  - This section main requires users to be in contact as feedback including name email and message text fields and a submit button beneath.
+  - There is also a vote for your favourite place with a list of Japanese places listed with a checkbox and a submit button below.
+  - There is also a section for user to select their favourite food to choose out of 5 options with also another submit button below.
 
   ![Footer]()
 
