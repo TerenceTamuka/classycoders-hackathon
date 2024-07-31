@@ -149,7 +149,7 @@ li a{
 }
 
 .form-submit {
-    grid-column: 1 / -1; /* Make the submit button span all columns */
+    grid-column: 1 / -1;
     display: flex;
     justify-content: flex-start;
     margin: 0;
@@ -240,6 +240,8 @@ li a{
     font-weight: bold;
     max-width: 20%;
 }
+
+
 
 /* ------------------------------ Footer */
 
@@ -363,6 +365,9 @@ li a{
         max-width: 100%;
     }
 }
+
+
+
 /*---------Main Header and hero image styling-----*/
 .hero-container {
     height: 100vh;
@@ -421,6 +426,8 @@ li a{
     font-family: "Josefin Sans", sans-serif;
 }
 
+
+
 /*------Japan exploration styling---*/
 
 .container-wrapper--yellow {
@@ -430,6 +437,8 @@ li a{
 .exploration-container {
     text-align: center;
 }
+
+
 
 /*------Japan exploration overlay styling---*/
 
