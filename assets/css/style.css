@@ -12,10 +12,6 @@ body {
     display: none;
 }
 
-/* main {
-    padding-top: 100px;
-} */
-
 
 /*--------------Styling the Navbar Outlook----*/
 .navalert-container{
@@ -42,19 +38,28 @@ body {
     border-radius: 4px;
 } */
 
+
+
 li a{
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     margin-right: 25px;
     font-family: "Josefin Sans", sans-serif;
     justify-content: flex-start;
+
+}
+
+.container-fluid.navalert-container{
+    padding: 0;
+    margin: 0;
 }
 .navbar {
-    margin-bottom: 0;
-    border: 0;
+    /* margin-bottom: 0;
+    border: 0; */
     width: 100%;
     background-color: rgba(1, 63, 26, 1);
+    
 }
 
 .navbar .navbar-toggler {
@@ -63,6 +68,10 @@ li a{
 
 .navbar-brand {
     font-weight: bold;
+}
+
+.active {
+    border-bottom: #fff;
 }
 
 .navbar-light .navbar-nav .active .nav-link {
@@ -197,7 +206,7 @@ li a{
     background-color: #faea05;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 10px;/
+    gap: 10px;
     justify-content: center;
     align-items: flex-start;
     width: 80%; 
@@ -367,6 +376,33 @@ li a{
 }
 
 
+/*--------media queries for mobile up to 446px----*/
+
+@media screen and (max-width: 446px){
+    .navalert-container h1 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .culture-header-text {
+        color: #013f1a;
+        top: 50%;
+        font-size: 3rem;
+    }
+
+    .tech-header-text {
+        color: #013f1a;
+        top: 25%;
+        font-size: 3rem;
+    }
+
+    .food-header-text {
+        color: #013f1a;
+        top: 20%;
+        font-size: 3rem;
+    }
+}
+
 
 /*---------Main Header and hero image styling-----*/
 .hero-container {
@@ -450,14 +486,15 @@ li a{
     
     display: block;
     border-radius: 25px;
-    height: auto;
+    height: 80%;
     width: 100%;
+    justify-content: space-between;
     
 }
 
  .explorationimage {
     border-radius: 25px;
-    height: auto;
+    height: 80vh;
     max-width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
