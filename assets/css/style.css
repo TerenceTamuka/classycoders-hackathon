@@ -6,6 +6,7 @@ body {
     padding: 0px;
     overflow-x: hidden;
     background-color: #fff;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .container-fluid.navalert-container {
@@ -32,6 +33,7 @@ main {
     padding-left: 0;
     padding-right: 0;
     z-index: 1;
+    background-color: #fff;
 }
 
 .navalert-container h1 {
