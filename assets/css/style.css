@@ -18,9 +18,9 @@ body {
     display: none;
 }
 
-main {
+/* main {
     padding-top: 5%;
-} 
+}  */
 
 
 
@@ -33,22 +33,23 @@ main {
     padding-left: 0;
     padding-right: 0;
     z-index: 1;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 .navalert-container h1 {
     font-family: "Josefin Sans", sans-serif;
-    width: 50%;
+    width: 100%;
     color: #fff;
     transition: ease .40s;
 }
 
-/* .navalert-container h1:hover {
+.navalert-container h1:hover {
     background: #faea05;
     color: #013f1a;
-    box-shadow: 40px 40px  rgb(85 85 85 / 20%);
-    border-radius: 4px;
-} */
+    box-shadow: 10px 10px  rgb(85 85 85 / 20%);
+    border-radius: 60px;
+    transform: scale(1.2);
+}
 
 
 
@@ -67,11 +68,21 @@ li a{
     margin: 0;
 }
 .navbar {
-    /* margin-bottom: 0;
-    border: 0; */
+    margin-bottom: 0;
+    border: 0;
     width: 100%;
     background-color: rgba(1, 63, 26, 1);
     
+}
+
+.navbar ul li a :hover{
+    background: #faea05;
+    color: #013f1a;
+    box-shadow: 10px 10px  rgb(85 85 85 / 20%);
+    border-radius: 30px;
+    padding: 10px 20px; /* Increase padding to make the hover area larger */
+    margin: 5px; /* Adjust margin for proper spacing */
+    transition: all 0.5s ease-in-out;
 }
 
 .navbar .navbar-toggler {
@@ -83,10 +94,11 @@ li a{
 }
 
 
-.navbar-light.navbar-nav.active.nav-link {
+/* .navbar-light.navbar-nav.active.nav-link {
 .active {
     border-bottom: #fff;
 }
+} */
 
 .navbar-light .navbar-nav .active .nav-link {
     font-family: "Josefin Sans", sans-serif;
@@ -95,13 +107,13 @@ li a{
     transition: ease .40s;
 }
 
-.navbar-light.navbar-nav.active.nav-link:hover{
+/* .navbar-light.navbar-nav.active.nav-link:hover{
     background: #faea05;
     color: #013f1a;
     box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
     border-radius: 4px;
     
-}
+} */
 
 
 
