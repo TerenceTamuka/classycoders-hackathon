@@ -6,6 +6,7 @@ body {
     padding: 0px;
     overflow-x: hidden;
     background-color: #fff;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .hidden-heading {
@@ -22,6 +23,7 @@ body {
     padding-left: 0;
     padding-right: 0;
     z-index: 1;
+    background-color: #fff;
 }
 
 .navalert-container h1 {

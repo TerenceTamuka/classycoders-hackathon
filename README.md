@@ -181,7 +181,11 @@ Mobile View:
 
 ## User Story Testing
 
-1.
+1. As a **USER** I want to see the **dynamism of visiting Japan** so that **I understand its Cultural Richness, Tech and Innovation & its Food Diversity**.
+
+- The website contins all the relevant information layed out in a way that a user can get an Idea of different aspects of why visit Japan.
+
+![Home Page sub categories]()
 
 2.
 
