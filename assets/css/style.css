@@ -8,9 +8,19 @@ body {
     background-color: #fff;
 }
 
+.container-fluid.navalert-container {
+    padding: 0;
+    margin: 0;
+}
+
 .hidden-heading {
     display: none;
 }
+
+main {
+    padding-top: 5%;
+} 
+
 
 
 /*--------------Styling the Navbar Outlook----*/
@@ -26,7 +36,7 @@ body {
 
 .navalert-container h1 {
     font-family: "Josefin Sans", sans-serif;
-    width: 30%;
+    width: 50%;
     color: #fff;
     transition: ease .40s;
 }
@@ -70,6 +80,8 @@ li a{
     font-weight: bold;
 }
 
+
+.navbar-light.navbar-nav.active.nav-link {
 .active {
     border-bottom: #fff;
 }
@@ -81,7 +93,7 @@ li a{
     transition: ease .40s;
 }
 
-.navbar-light .navbar-nav .active .nav-link:hover{
+.navbar-light.navbar-nav.active.nav-link:hover{
     background: #faea05;
     color: #013f1a;
     box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
@@ -170,7 +182,7 @@ li a{
 
 .vote {
     border-bottom: 4px solid #faea05;
-    max-width: 52%;
+    max-width: 49%;
     text-transform: uppercase;
     font-weight: bold;
     margin: 50px 0 40px 0;
@@ -204,6 +216,8 @@ li a{
 
 .options {
     background-color: #faea05;
+    border: 1px solid #faea05;
+    border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
@@ -274,7 +288,7 @@ li a{
 
 .footer-icons li {
     list-style-type: none;
-    padding: 0 50px;
+    padding: 15px 120px 0 120px;
 }
 
 .footer-icons li a {
@@ -430,12 +444,12 @@ li a{
     background-color: rgba(10, 16, 13, 0.5);
 }
 
-.main{
+.main {
     background-color: transparent;
     text-align: center;
 }
 
-.main-header{
+.main-header {
     color: #faea05;
     font-weight: 600;
     margin-bottom: 30px;
@@ -515,12 +529,12 @@ li a{
     transition: .5s ease;
 } 
 
-.slide-container:hover .overlay{
+.slide-container:hover .overlay {
    bottom: 0;
    height: 100%;
 }
 
-.overlay-text{
+.overlay-text {
     white-space: nowrap;
     color: #faea05;
     font-family: 'Josefin Sans', sans-serif;
