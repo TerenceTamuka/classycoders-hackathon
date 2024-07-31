@@ -87,7 +87,7 @@ li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 65px 0 50px 0;
+    margin: 1% 0 4% 0;
     width: 100%;
     padding: 20px;
     background-color: #013f1a;
@@ -114,13 +114,6 @@ li a{
     font-weight: bold;
 }
 
-.form-container {
-    width: 100%;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-}
 
 .form-section {
     display: flex;
@@ -137,6 +130,7 @@ li a{
     margin-bottom: 10px;
 }
 
+
 .submit {
     background-color: #faea05;
     color: #013f1a;
@@ -146,23 +140,30 @@ li a{
     margin-top: 10px;
     border: none;
     border-radius: 5px;
-    width: 15%;
+    width: 25%;
 }
 
 .submit:hover {
     background-color: rgba(229, 255, 0, 0.521);
 }
 
+.form-submit {
+    grid-column: 1 / -1; /* Make the submit button span all columns */
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
 
 
 
 
-.favorite-box h2 {
+.vote {
     border-bottom: 4px solid #faea05;
-    max-width: 51%;
+    max-width: 52%;
     text-transform: uppercase;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin: 50px 0 40px 0;
 }
 
 .favorite {
@@ -174,17 +175,36 @@ li a{
     border-bottom: 2px solid #faea05;
 }
 
+.places-options,
+.food-options {
+    max-width: 100%;
+    width: 100%;
+}
+
+.places-form {
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+.food-form {
+
+    margin: 10px 0;
+    max-width: 100%;
+}
+
 .options {
+    background-color: #faea05;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;/
+    gap: 10px;/
     justify-content: center;
     align-items: flex-start;
-    width: 100%;
-    background-color: #faea05;
-    margin: 10px 0;
-    max-width: 80%;
+    width: 80%; 
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
 }
+
 
 .option {
     display: flex;
@@ -239,10 +259,10 @@ li a{
     margin: 0;
 }
 
+
 .footer-icons li {
-    padding: 10px 50px 0 50px;
-    margin: 0;
     list-style-type: none;
+    padding: 0 50px;
 }
 
 .footer-icons li a {
@@ -254,4 +274,91 @@ li a{
 .footer-icons li a:hover {
     color: #faea05;
     transform: scale(1.1);
+}
+
+
+
+/* ------------------------------ Media Queries */
+
+@media only screen and (max-width: 480px) {
+    
+    .contact-box,
+    .favorite-box {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .content-box {
+        flex-direction: column;
+    }
+
+    .contact-us {
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    
+
+    .form-section {
+        width: 100%;
+        max-width: 100%;
+        margin: 5px 0;
+        box-shadow: 5px 5px rgba(229, 255, 0, 0.2);
+    }
+
+    .submit {
+        width: 100%;
+        margin-top: 20px;
+        box-shadow: 3px 3px rgba(229, 255, 0, 0.2);
+    }
+
+    .form-container {
+        margin-bottom: 20px;
+    }
+
+    .options {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        background-color: #faea05;
+        margin: 10px 0;
+        padding: 0;
+        max-width: 100%;
+        box-shadow: 5px 5px rgba(229, 255, 0, 0.2);
+    }
+
+    .vote {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .favorite-box h4 {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .content-box {
+        margin-bottom: 140px;
+    }
+
+    .footer-icons li {
+        padding: 10px 12px 0 12px;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    .footer-icons li a {
+        color: #fafafa;
+        transition: ease .40s;
+        width: 100%;
+        max-width: 100%;
+    }
 }
