@@ -49,8 +49,10 @@ The site has core features that allow users to find out information about Japan 
 
 - __Navigation Bar__
 
-  -
-  -
+  - Fixed on all three pages, the full responsivenes navbar includes links to Home, Explore and Contact pages. It is identical on all three pages for easy UX support.
+
+  - The navigation bar has a hover effect of yellow which blends in perfectly for the overall theme of the website which makes it a clear and concise navigation bar in terms of readability and accessibility for users.
+
 ![Nav Bar](media/nav-bar-desktop-view.png)
 
 - __The landing page image__
@@ -64,6 +66,7 @@ The site has core features that allow users to find out information about Japan 
 - __Japan Adventure Section__
 
   - The section brings the user to a more in depth explanation of the Japanese culture richness, tech and innovation and food diversity.
+
   - On desktop, hovering over the images in this section creates an interactiver overlay with a link to appear, the link in the overlay directs to the relevant section of the explore page.
 
 
@@ -98,8 +101,8 @@ The site has core features that allow users to find out information about Japan 
 
 -__Home Page Mobile View__
 
-![Home Page Mobile view 1]()
-![Home Page Mobile view 2]()
+![Home Page iPad view ](media/homepage-iPad-view.png)
+![Home Page Mobile view ]()
 
 -__Explore Page Mobile View__
 
@@ -185,11 +188,19 @@ Mobile View:
 
 - The website contins all the relevant information layed out in a way that a user can get an Idea of different aspects of why visit Japan.
 
-![Home Page sub categories]()
+![Home Page sub categories](media/homepage-subcategories.png)
 
-2.
+2. As a **USER** I can **see the best food Japan has to offer** so that **I can try all the presented food dishes**.
 
-3.
+- On our site, we have the food diversity page that expounds on some of the famous or most common Japanese food traditions.  Additionally, we have created a user interaction choice menu with the top 5 Japanese food dish names for them to choose from.
+
+![Japanese Food options](media/food-info.png)
+
+3. As a **USER** I can **contact you for more information or any issues I may have** so that **you can answer questions/or fix any issues I may have**.
+
+- On the Contact page, we added a contact form where user is required to input their name, email and a message field for them to feel free to express themselves.
+
+![User Contact Form](media/user-feedback.png)
 
 4.
 
