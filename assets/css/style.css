@@ -488,6 +488,7 @@ li a{
     color: #faea05;
     text-shadow: 5px 5px 5px rgba(10, 180, 0, 0.8); /* Add shadow to lead text */
     font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
 }
 
 
