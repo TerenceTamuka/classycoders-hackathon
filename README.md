@@ -6,7 +6,7 @@ The objective of this website is to enhance the interest of a user to see partic
 
 The site is aimed for those who are willing to travel and explore Japan and understand the importance of its core values as a country.
 
-![Home Page]()
+![Home Page](media/landing-page.png)
 
 ## UX
 
@@ -59,7 +59,7 @@ The site has core features that allow users to find out information about Japan 
 
   - It offers the brand name and ambience with a brief explantion of value.
 
-![Landing Page](media/landing-page.png)
+![Landing Page](media/landing-page-new.png)
 
 - __Japan Adventure Section__
 
@@ -67,7 +67,7 @@ The site has core features that allow users to find out information about Japan 
   - On desktop, hovering over the images in this section creates an interactiver overlay with a link to appear, the link in the overlay directs to the relevant section of the explore page.
 
 
-![Contact](https://terencetamuka.github.io/classycoders-hackathon/contact.html)
+![Contact](media/contact-page.png)
 
 - __The Contact Section__
 
