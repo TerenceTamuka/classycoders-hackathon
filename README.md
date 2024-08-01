@@ -86,15 +86,15 @@ The site has core features that allow users to find out information about Japan 
 
   - __Home Page__
 
-  ![Desktop homepage view]()
+  ![Desktop homepage view](media/wireframe-desktopview-new.png)
 
 -__Explore Page__
 
-![Japan variations view]()
+![Japan variations view](media/wireframe-explore-page.png)
 
 -__Contact Page__
 
-![Contact page view]()
+![Contact page view](media/wireframe-contactpage-desktop-view.png)
 
 -__Home Page Mobile View__
 
@@ -119,13 +119,13 @@ The site has core features that allow users to find out information about Japan 
 
 A site palette was chose to showcase a color scheme that is both suitable and appropriate for the ambience of the country of Japan.
 
-The palette was created using http://colormind.io/
-
-![pallete]()
-
 The chose colors are:
 
+#faea05 - Yellow
 
+013f1a - Dark - Green
+
+#fff - Off-White for the footer and header content
 
 
 ### fonts
