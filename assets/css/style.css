@@ -320,41 +320,95 @@ li a{
 
 /* ------------------------------ Media Queries */
 
-@media screen and (max-width: 480px) {
-    
-    .contact-box,
-    .favorite-box {
-        width: 100%;
-        margin: 10px;
+@media only screen and (max-width: 480px) {
+
+    header {
+        max-width: 80vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    .navbar {
+        max-width: 84vw;
+    }
+
+    main {
+        max-width: 84vw;
+        margin: 0;
+        padding: 0;
     }
 
     .content-box {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        width: 100vw;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+
+    }
+
+
+    .contact-box,
+    .favorite-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        width: 100%;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+
+    .places-form {
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .contact-us {
-        width: 100%;
-        max-width: 100%;
+        display: flex;
         justify-content: center;
         padding-bottom: 10px;
     }
     
 
     .form-section {
-        width: 100%;
-        max-width: 100%;
         margin: 5px 0;
         box-shadow: 5px 5px rgba(229, 255, 0, 0.2);
     }
 
     .submit {
-        width: 100%;
         margin-top: 20px;
         box-shadow: 3px 3px rgba(229, 255, 0, 0.2);
     }
 
     .form-container {
         margin-bottom: 20px;
+        max-width: 100%;
+        width: 100%;
+        padding: 0;
     }
 
     .options {
@@ -362,74 +416,45 @@ li a{
         grid-template-columns: repeat(4, 1fr);
         gap: 0;
         justify-content: center;
-        align-items: flex-start;
-        width: 100%;
+        align-items: center;
         background-color: #faea05;
+        max-width: 100%;
+        width: 100%;
         margin: 10px 0;
         padding: 0;
-        max-width: 100%;
         box-shadow: 5px 5px rgba(229, 255, 0, 0.2);
     }
 
     .vote {
-        width: 100%;
-        max-width: 100%;
         text-align: center;
         padding-bottom: 10px;
     }
 
     .favorite-box h4 {
-        width: 100%;
-        max-width: 100%;
         text-align: center;
         padding-bottom: 10px;
     }
 
-    .content-box {
-        margin-bottom: 140px;
+
+    .footer {
+        max-width: 83vw;   
     }
 
     .footer-icons li {
-        padding: 10px 12px 0 12px;
+        padding: 10px 8px 0 8px;
         margin: 0;
         list-style-type: none;
     }
 
     .footer-icons li a {
+        font-weight: 0.5rem;
         color: #fafafa;
         transition: ease .40s;
-        width: 100%;
-        max-width: 100%;
+        padding: 10px 10px 0 10px;
+        margin: 0;
     }
 }
 
-
-/*--------media queries for mobile up to 446px----*/
-
-@media screen and (max-width: 446px){
-    .navalert-container h1 {
-        font-family: 'Josefin Sans', sans-serif;
-        font-size: 1.5rem;
-    }
-
-    .culture-header-text {
-        color: #013f1a;
-        top: 50%;
-        font-size: 3rem;
-    }
-
-    .tech-header-text {
-        color: #013f1a;
-        top: 25%;
-        font-size: 3rem;
-    }
-
-    .food-header-text {
-        color: #013f1a;
-        top: 20%;
-        font-size: 3rem;
-    }
-}
 
 
 /*---------Main Header and hero image styling-----*/
