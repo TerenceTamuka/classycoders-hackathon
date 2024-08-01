@@ -233,7 +233,6 @@ li a{
 .options {
     background-color: #faea05;
     border: 1px solid #faea05;
-    border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
@@ -252,7 +251,6 @@ li a{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    border-radius: 5px;
     color: #013f1a;
     font-weight: bold;
 }
@@ -332,7 +330,7 @@ li a{
     }
 
     a h1 {
-        font-size: 2.3rem;
+        font-size: 2.2rem;
     }
 
     .navbar {
@@ -350,7 +348,7 @@ li a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        max-width: 100%;
+        max-width: 100vw;
         width: 100vw;
         flex-direction: column;
         margin: 18% 0 13% 0;
@@ -404,8 +402,11 @@ li a{
     
 
     .form-section {
+        max-width: 100%;
+        width: 100%;
         margin: 5px 0;
         box-shadow: 5px 5px rgba(229, 255, 0, 0.2);
+
     }
 
     .submit {
