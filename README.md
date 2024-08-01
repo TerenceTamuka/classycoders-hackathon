@@ -101,8 +101,9 @@ The site has core features that allow users to find out information about Japan 
 
 -__Home Page Mobile View__
 
-![Home Page iPad view ](media/homepage-iPad-view.png)
-![Home Page Mobile view ]()
+![Homepage Ipad View](media/homepage-iPad-view.png)
+
+![Home Page Mobile view ](media/wireframe-mobile%20view.png)
 
 -__Explore Page Mobile View__
 
@@ -144,7 +145,7 @@ Home page - The hero image showcases the overal look of being in Japan, Tokyo wh
 
 Explore Page - Images of each sub category of Japan's Cultural richness, Tech and Food diversity are included together with informative text to allow the user to understand the overview of these Japanaese components, together with a nice UX design.
 
-Contact Page - 
+Contact Page - This page is mainly based on user input on different aspects of the overal purpose of our site. There is the Contact us section on the left which takes the user's name, email and a message box. Below is the submit button. On the right hand side of the page, tjere is a voting section which gives users a chance to vote on what their favourite places to visit would be and each option containing a radio button function for user to click and then submit. On the bottom of this section, we also added a favourite food section where users can select their favourite food names with another radio button function. A final submit button is also available for users to submit their favourite food once all options have been selected.
 
 ## Technologies Utilised
 
@@ -176,11 +177,12 @@ Japan Adventures has been vigorously tested throughout the developmment process 
 
 Desktop :
 
-![desktop]()
+![Desktop Scores](media/lighthouse-homepage-test.png)
+
 
 Mobile View:
 
-![Mobile]()
+![Mobile cores](media/lighthouse-mobiletest.png)
 
 ## User Story Testing
 
@@ -202,11 +204,23 @@ Mobile View:
 
 ![User Contact Form](media/user-feedback.png)
 
-4.
+4. As a **USER** i can **see wha kind of technologies Japan has to offer** so that **I get more of insight of the types of tech and innovation in Japan**.
 
-5.
+- Not only is it just text but also images were added to give user an idea of the technology and innovation in Japan
 
-6.
+![Tech and Innovation Snippet](media/tech-innovation-insight.png)
+
+5. As a **USER** I can **Vote for my favourite place to visit based on aspects of, Culture, Tech or Food** so that **others can see my favorite place**.
+
+- These features were added to the Contact page with forms to allow users to vote and register these actions.
+
+![Voting](media/favourite-place-voting.png)
+
+6. As a **USER** I can **see the name of the website on the top tab** so that **I understand what the page is all about**.
+
+- We ensured that users will be able to see the website name on the top tab to give a clear and concise description of the website.
+
+![Website-Title](media/website-title.png)
 
 7.
 
