@@ -51,7 +51,7 @@ The site has core features that allow users to find out information about Japan 
 
   -
   -
-![Nav Bar]()
+![Nav Bar](media/nav-bar-desktop-view.png)
 
 - __The landing page image__
 
@@ -59,7 +59,7 @@ The site has core features that allow users to find out information about Japan 
 
   - It offers the brand name and ambience with a brief explantion of value.
 
-![Landing Page](https://terencetamuka.github.io/classycoders-hackathon/)
+![Landing Page](media/landing-page.png)
 
 - __Japan Adventure Section__
 
@@ -75,7 +75,7 @@ The site has core features that allow users to find out information about Japan 
   - There is also a vote for your favourite place with a list of Japanese places listed with a checkbox and a submit button below.
   - There is also a section for user to select their favourite food to choose out of 5 options with also another submit button below.
 
-  ![Footer]()
+  ![Footer](media/footer.png)
 
     - The footer includes links for user to follow and they also contain a hover effect.
     - The footer is consisitently displayed accross all the pages on the website.
